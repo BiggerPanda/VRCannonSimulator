@@ -2702,7 +2702,6 @@ GameObject:
   - component: {fileID: 1026676080}
   - component: {fileID: 1026676079}
   - component: {fileID: 1026676078}
-  - component: {fileID: 1026676083}
   m_Layer: 5
   m_Name: AdminCanvas
   m_TagString: Untagged
@@ -2811,25 +2810,6 @@ RectTransform:
   m_AnchoredPosition: {x: -4.35, y: 2.15}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1026676083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026676077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 0
-  m_CheckFor2DOcclusion: 0
-  m_CheckFor3DOcclusion: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RaycastTriggerInteraction: 1
 --- !u!1 &1162090757
 GameObject:
   m_ObjectHideFlags: 0
