@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotationKnob : MonoBehaviour
+public class CannonRotationKnob : MonoBehaviour
 {
     [SerializeField] private bool isHorizontal;
     [SerializeField] private Transform knobTransform;

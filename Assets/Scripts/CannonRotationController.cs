@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotationController : MonoBehaviour
+public class CannonRotationController : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed = 1f;
     [SerializeField] private float rotationAngle = 90f;
-    [SerializeField] private RotationKnob rotationKnobHortizontal;
-    [SerializeField] private RotationKnob rotationKnobVertical;
+    [SerializeField] private CannonRotationKnob rotationKnobHortizontal;
+    [SerializeField] private CannonRotationKnob rotationKnobVertical;
     [SerializeField] private GameObject verticalRotationObject;
     [SerializeField] private GameObject rotationObjectParent;
 
